@@ -4,37 +4,43 @@ header
 
 .logo
   width: 960px
-  padding: 40px
-
+  padding: 40px 0
   margin: auto
+
+  img
+    max-width: 100%
+
+.nav-bar
+  background-color: $primary-color
+  display: block
+  min-height: 60px
+  @include clearfix
 
 nav
-  background-color: $primary-color
-  height: 60px
-
-.lockup
   width: 960px
   margin: auto
-
 
   h1
     text-align: left
     color: white
-    font-size: 26px
+    font-size: 2em
     font-weight: 200
-    margin: auto
-    padding-top: 15px
+    margin: auto 0 10px 10px
+    padding-top: 20px
     float: left
 
   ul
     list-style: none
-    margin: auto
+    margin: auto 10px auto 0
     float: right
-    padding-top: 19px
+    padding: 25px 0
+    -webkit-padding-start: 0
 
   li
-    margin-left: 20px
     display: inline
+
+    &:nth-child(2)
+      margin-left: 20px
 
   a
     padding: 15px
@@ -54,3 +60,28 @@ nav
   -moz-background-size: cover
   -o-background-size: cover
   margin-bottom: 80px
+
+@media screen and (max-width: 960px)
+  .logo
+    max-width: 100%
+    margin: auto 10px
+    padding: 10px 0
+
+  nav
+    max-width: 100%
+
+@media screen and (max-width: 760px)
+  nav h1, nav ul
+    float: none
+    clear: none
+    text-align: center
+
+  nav h1
+    margin: auto 0 10px 0
+
+  nav ul
+    margin: 0 auto 15px auto
+
+@media screen and (max-width: 480px)
+  .hero
+    height: 200px
