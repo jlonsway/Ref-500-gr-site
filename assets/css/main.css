@@ -287,9 +287,7 @@ nav {
 
 @media screen and (max-width: 960px) {
   .logo {
-    max-width: 97%;
-    margin: 10px;
-    padding: 10px 0; }
+    max-width: 97%; }
 
   nav {
     max-width: 100%; } }
