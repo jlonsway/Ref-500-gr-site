@@ -390,5 +390,81 @@ nav {
 @media screen and (max-width: 460px) {
   .subscribe #mce-EMAIL {
     min-width: 220px; } }
+.contact {
+  box-sizing: border-box;
+  background-color: #b22217;
+  padding: 60px 10px; }
+
+.contact .content {
+  width: 960px;
+  margin: auto;
+  padding: 0 10px; }
+  .contact .content h2 {
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    border-bottom: 1px solid white; }
+
+.contact-lockup:after {
+  content: "";
+  display: table;
+  clear: both; }
+.contact-lockup p {
+  color: white;
+  width: 320px;
+  margin-right: 40px;
+  padding-right: 40px;
+  float: left; }
+.contact-lockup .contact-form {
+  box-sizing: border-box;
+  width: 560px;
+  padding-left: 40px;
+  text-align: right;
+  float: right;
+  transform: translate(0, -17px); }
+  .contact-lockup .contact-form label {
+    display: none; }
+  .contact-lockup .contact-form input {
+    /*box-sizing: border-box */
+    width: 500px;
+    height: 20px;
+    border-left: 2px solid #8a0000;
+    border-top: 2px solid #8a0000;
+    border-radius: 4px;
+    padding: 8px; }
+    .contact-lockup .contact-form input:focus {
+      border: 2px solid #b7a790; }
+  .contact-lockup .contact-form #contact-submit {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px black; }
+    .contact-lockup .contact-form #contact-submit:hover {
+      transform: translate(-2px, -2px);
+      box-shadow: 4px 4px 4px black; }
+
+@media screen and (max-width: 980px) {
+  .contact .content {
+    width: auto; }
+
+  .contact, .contact-lockup .contact-form {
+    text-align: center; }
+
+  .contact-lockup p, .contact-lockup .contact-form {
+    width: auto;
+    margin: 20px auto;
+    padding: inherit; }
+
+  .contact-lockup p, .contact-lockup .contact-form {
+    float: none; } }
+@media screen and (max-width: 540px) {
+  .contact-lockup .contact-form input {
+    width: 220px; } }
 
 /*# sourceMappingURL=main.css.map */
