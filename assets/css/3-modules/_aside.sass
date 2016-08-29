@@ -1,0 +1,70 @@
+.newsletter
+  background-color: #333
+
+
+.lockup
+  box-sizing: border-box
+  width: 960px
+  margin: auto
+  padding: 30px 10px 0 10px
+  +clearfix
+
+  .content
+    color: white
+    float: left
+
+    h3
+      font-size: 2em
+      font-weight: 100
+      margin-bottom: 8px
+      color: white
+
+.subscribe
+  float: right
+  margin-top: 25px
+  text-align: right
+
+  .hidden
+    position: absolute
+    left: -5000px
+
+  #mce-EMAIL
+    min-width: 440px
+    height: 25px
+    border-radius: 4px
+    padding: 8px
+
+    &:focus
+      border: 2px solid $primary-color
+
+  .button
+    margin: 10px auto 35px auto
+    padding: 10px 20px
+    font-size: 1.5em
+    color: white
+    background-color: $primary-color
+    border: none
+    border-radius: 4px
+    box-shadow: 2px 2px 2px black
+
+    &:hover
+      transform: translate(-2px, -2px)
+      box-shadow: 4px 4px 4px black
+
+@media screen and (max-width: 960px)
+  .lockup
+    width: 100%
+
+@media screen and (max-width: 840px)
+  .newsletter
+    text-align: center
+
+  .lockup .content, .subscribe
+    float: none
+
+  .subscribe
+    text-align: center
+
+@media screen and (max-width: 460px)
+  .subscribe #mce-EMAIL
+    min-width: 220px
