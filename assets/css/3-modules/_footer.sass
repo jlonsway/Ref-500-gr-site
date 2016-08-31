@@ -1,0 +1,89 @@
+footer
+  box-sizing: border-box
+  background-color: #333
+  margin: 40px auto
+
+.container
+  width: 960px
+  +clearfix
+  margin: auto
+  padding: 40px 0
+
+  div
+    box-sizing: border-box
+    float: left
+
+  a, p
+    color: #aaa
+
+    &::selection
+      background: white
+
+    &::-moz-selection
+      background: white
+
+  a
+    text-decoration: none
+
+    &:hover
+      text-decoration: underline
+      color: $primary-color
+
+  .elca-logo
+    width: 360px
+
+    img
+      width: 80%
+
+  .links
+    width: 300px
+    padding-left: 20px
+
+    ul
+      list-style: none
+      margin: auto
+
+      li
+        margin-bottom: 10px
+
+  .copyright
+    width: 300px
+    padding-left: 20px
+
+    p
+      margin-top: 42px
+
+@media screen and (max-width: 960px)
+  .container
+    width: 100%
+
+  .container .elca-logo
+    width: 100%
+    float: none
+    text-align: center
+    margin-bottom: 40px
+
+    img
+      margin: auto
+      width: 50%
+
+  .container .links
+    margin-left: 18%
+
+@media screen and (max-width: 745px)
+  .container .links
+    margin: 0
+
+  .container .links, .container .copyright
+    width: 100%
+    float: none
+    text-align: center
+    margin: 40px auto 0 auto
+    padding: 0
+
+    ul
+      box-sizing: border-box
+      padding: 0
+
+  .container .copyright
+    margin: 10px auto

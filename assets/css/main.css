@@ -528,5 +528,81 @@ nav {
       margin: 0 auto 60px auto; }
       .directions-lockup .col-3:last-child {
         margin: 0 auto; } }
+footer {
+  box-sizing: border-box;
+  background-color: #333;
+  margin: 40px auto; }
+
+.container {
+  width: 960px;
+  margin: auto;
+  padding: 40px 0; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .container div {
+    box-sizing: border-box;
+    float: left; }
+  .container a, .container p {
+    color: #aaa; }
+    .container a::selection, .container p::selection {
+      background: white; }
+    .container a::-moz-selection, .container p::-moz-selection {
+      background: white; }
+  .container a {
+    text-decoration: none; }
+    .container a:hover {
+      text-decoration: underline;
+      color: #b22217; }
+  .container .elca-logo {
+    width: 360px; }
+    .container .elca-logo img {
+      width: 80%; }
+  .container .links {
+    width: 300px;
+    padding-left: 20px; }
+    .container .links ul {
+      list-style: none;
+      margin: auto; }
+      .container .links ul li {
+        margin-bottom: 10px; }
+  .container .copyright {
+    width: 300px;
+    padding-left: 20px; }
+    .container .copyright p {
+      margin-top: 42px; }
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 100%; }
+
+  .container .elca-logo {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 40px; }
+    .container .elca-logo img {
+      margin: auto;
+      width: 50%; }
+
+  .container .links {
+    margin-left: 18%; } }
+@media screen and (max-width: 745px) {
+  .container .links {
+    margin: 0; }
+
+  .container .links, .container .copyright {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    padding: 0; }
+    .container .links ul, .container .copyright ul {
+      box-sizing: border-box;
+      padding: 0; }
+
+  .container .copyright {
+    margin: 10px auto; } }
 
 /*# sourceMappingURL=main.css.map */
