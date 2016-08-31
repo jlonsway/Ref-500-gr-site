@@ -309,24 +309,22 @@ nav {
   .hero {
     height: 200px;
     margin-bottom: 40px; } }
-#about {
+.about {
+  box-sizing: border-box;
   width: 760px;
   margin: 80px auto;
   text-align: center; }
-  #about h2 {
+  .about h2 {
     font-weight: 200;
     padding-bottom: 5px;
     border-bottom: 1px solid #b22217; }
-  #about p {
+  .about p {
     text-align: left; }
 
-@media screen and (max-width: 760px) {
-  #about {
+@media screen and (max-width: 770px) {
+  .about {
     max-width: 100%;
-    margin: 40px auto 40px auto; }
-    #about p, #about h2 {
-      margin-right: 10px;
-      margin-left: 10px; } }
+    padding: 0 20px; } }
 .newsletter {
   background-color: #333; }
 
@@ -526,6 +524,8 @@ nav {
       float: none;
       width: 100%;
       margin: 0 auto 60px auto; }
+      .directions-lockup .col-3:first-child {
+        margin-left: 0; }
       .directions-lockup .col-3:last-child {
         margin: 0 auto; } }
 footer {
