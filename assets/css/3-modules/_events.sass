@@ -46,3 +46,48 @@
 
     p:last-child
       margin-bottom: 0
+
+@media screen and (max-width: 760px)
+  .events
+    width: 100%
+    padding: 0 10px
+
+    .events-lockup
+      margin: auto
+
+      .date
+        margin-left: 10%
+
+      .info
+        width: 60%
+        margin-right: 20px
+        float: left
+
+@media screen and (max-width: 560px)
+  .event
+    text-align: justify
+
+    .date
+      margin: auto
+
+    .info
+      border: none
+
+@media screen and (max-width: 450px)
+  .events .events-lockup .date
+    margin: auto auto 40px auto
+
+  .event .date
+    float: none
+
+  .events .events-lockup .info
+    box-sizing: border-box
+    width: 100%
+    margin: auto
+    padding: 0 10px
+
+    h4, p
+      text-align: center
+
+    p:last-child
+      text-align: justify
