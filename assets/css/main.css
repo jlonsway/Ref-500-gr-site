@@ -320,7 +320,8 @@ nav {
   .about h2 {
     font-weight: 200;
     padding-bottom: 5px;
-    border-bottom: 1px solid #b22217; }
+    border-bottom: 1px solid #b22217;
+    margin-bottom: 60px; }
   .about p {
     text-align: left; }
 
@@ -335,7 +336,7 @@ nav {
   box-sizing: border-box;
   width: 960px;
   margin: auto;
-  padding: 30px 10px 0 10px; }
+  padding: 40px 10px 30px 10px; }
   .lockup:after {
     content: "";
     display: table;
@@ -484,7 +485,8 @@ nav {
     color: white;
     text-align: center;
     font-weight: 200;
-    border-bottom: 1px solid white; }
+    border-bottom: 1px solid white;
+    margin-bottom: 60px; }
 
 .contact-lockup:after {
   content: "";
@@ -556,11 +558,11 @@ nav {
   .directions-content h2 {
     font-weight: 200;
     padding-bottom: 5px;
-    border-bottom: 1px solid #b22217; }
+    border-bottom: 1px solid #b22217;
+    margin-bottom: 25px; }
 
 .directions-lockup {
-  text-align: left;
-  margin-top: 60px; }
+  text-align: left; }
   .directions-lockup:after {
     content: "";
     display: table;
@@ -577,7 +579,8 @@ nav {
   .directions-lockup h4 {
     color: #333;
     font-size: 1.5em;
-    font-weight: 200; }
+    font-weight: 200;
+    margin-bottom: 15px; }
   .directions-lockup img {
     border: 2px solid #b7a790;
     border-radius: 4px; }
