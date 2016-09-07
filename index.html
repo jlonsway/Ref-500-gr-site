@@ -75,7 +75,7 @@
         <div class="info">
           <h4>Hymn Festival</h4>
           <p><em>Trinity Lutheran Church - 3:00 pm</em></p>
-          <p>Hymns both old and new will be performed by a mass choir, brass ensemble, and congregational participation in the acoustically marvelous setting of Trinity Lutheran Church. Special guest John Ferguson will lead a musical journey of faith over the last 500 years. </p>
+          <p>Hymns both old and new will be performed by a mass choir, brass ensemble, and congregational participation in the acoustically marvelous setting of Trinity Lutheran Church. Special guest John Ferguson will lead a musical journey of faith over the last 500 years.</p>
         </div>
       </div>
 
@@ -103,12 +103,12 @@
 
       <div class="event">
         <div class="date">
-          <h3>Oct 30</h3>
+          <h3>Date TBA</h3>
         </div>
         <div class="info">
-          <h4>Hymn Festival</h4>
-          <p><em>Trinity Lutheran Church</em></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar lectus eu nisl rhoncus, eu viverra neque porta. Pellentesque non odio consectetur, facilisis tellus ut, dapibus ante. Phasellus congue ipsum nulla, vitae bibendum nunc sodales a. Morbi ac ultricies ex. Pellentesque metus est, feugiat ut magna id, sagittis mattis nibh. Duis venenatis rhoncus euismod.</p>
+          <h4>Round Table Conference</h4>
+          <p><em>Location TBA</em></p>
+          <p>A day of conversation around topics of the Reformation, both historical and it's continued impact today and for the future.</p>
         </div>
       </div>
 
@@ -136,23 +136,23 @@
 
       <div class="event">
         <div class="date">
-          <h3>Oct 30</h3>
+          <h3>Oct 2017</h3>
         </div>
         <div class="info">
-          <h4>Hymn Festival</h4>
-          <p><em>Trinity Lutheran Church</em></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar lectus eu nisl rhoncus, eu viverra neque porta. Pellentesque non odio consectetur, facilisis tellus ut, dapibus ante. Phasellus congue ipsum nulla, vitae bibendum nunc sodales a. Morbi ac ultricies ex. Pellentesque metus est, feugiat ut magna id, sagittis mattis nibh. Duis venenatis rhoncus euismod.</p>
+          <h4>Oktober Fest</h4>
+          <p><em>Location TBA</em></p>
+          <p>Music, food and fun will be had at this traditional, German-style Oktober Festival. Location and cost TBA.</p>
         </div>
       </div>
 
       <div class="event">
         <div class="date">
-          <h3>Oct 30</h3>
+          <h3>Oct 2017</h3>
         </div>
         <div class="info">
-          <h4>Hymn Festival</h4>
-          <p><em>Trinity Lutheran Church</em></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar lectus eu nisl rhoncus, eu viverra neque porta. Pellentesque non odio consectetur, facilisis tellus ut, dapibus ante. Phasellus congue ipsum nulla, vitae bibendum nunc sodales a. Morbi ac ultricies ex. Pellentesque metus est, feugiat ut magna id, sagittis mattis nibh. Duis venenatis rhoncus euismod.</p>
+          <h4>Ecumenical Joint Remembrance</h4>
+          <p><em>Location TBA</em></p>
+          <p>Our local Lutheran synod is working with the local Catholic Diocese to plan a joint remembrance. Many details still remain to be decided. Join our mailing list to receive more information about this historic event as they become available.</p>
         </div>
       </div>
 
@@ -228,5 +228,19 @@
 
 <script src="assets/js/jquery-2.1.1.min.js"></script>
 <script src="assets/js/functions.js" type="text/javascript"></script>
+<script>$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});</script>
 </body>
 </html>
