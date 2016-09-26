@@ -434,6 +434,15 @@ nav {
       color: #666;
       padding-bottom: 2px;
       border-bottom: 1px solid #666; }
+    .event .info img {
+      margin-right: 12px;
+      border: 2px solid #b22217;
+      border-radius: 4px; }
+    .event .info h6 {
+      font-size: 1em;
+      font-weight: 100;
+      margin: 0;
+      color: #666; }
     .event .info p:last-child {
       margin-bottom: 0; }
 
@@ -448,7 +457,9 @@ nav {
       .events .events-lockup .info {
         width: 60%;
         margin-right: 20px;
-        float: left; } }
+        float: left; }
+        .events .events-lockup .info img {
+          margin-bottom: 10px; } }
 @media screen and (max-width: 560px) {
   .event {
     text-align: justify; }
