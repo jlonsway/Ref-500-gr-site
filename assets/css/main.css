@@ -400,6 +400,12 @@ nav {
 
 .events-lockup {
   margin-left: 100px; }
+  .events-lockup h3 {
+    text-align: left;
+    margin: 60px 0 -10px 219px;
+    font-size: 2em;
+    font-weight: 100;
+    color: #666; }
 
 .event {
   box-sizing: border-box;
@@ -445,6 +451,9 @@ nav {
       color: #666; }
     .event .info p:last-child {
       margin-bottom: 0; }
+
+.past-date .date {
+  background-color: rgba(178, 34, 23, 0.75); }
 
 @media screen and (max-width: 760px) {
   .events {
