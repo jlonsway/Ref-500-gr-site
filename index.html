@@ -410,4 +410,53 @@
           <img src="assets/images/trinity_thumb.jpg" alt="image of church" width="220px" height="148px">
           <p><em>2700 Fulton St E<br>
           Grand Rapids, MI 49506</em></p>
-          <a href="https://www.google.com/maps/place/Trinity+Lutheran+Church/@42.9618933,-85.6039533,17z/data=!3m1!4b1!4m5!3m4!1s0x881852cd26558b51:0x8ce72ffdd34e2558!8m2!3d42.9618933!4d-85.60
+          <a href="https://www.google.com/maps/place/Trinity+Lutheran+Church/@42.9618933,-85.6039533,17z/data=!3m1!4b1!4m5!3m4!1s0x881852cd26558b51:0x8ce72ffdd34e2558!8m2!3d42.9618933!4d-85.6017646" class="button" target="_blank">Directions</a>
+        </div>
+        <div class="col-3">
+          <h4>St. Luke's Lutheran</h4>
+          <img src="assets/images/stlukes_thumb.jpg" alt="image of church" width="220px" height="148px">
+          <p><em>3215 Four Mile RD NE<br>
+          Grand Rapids, MI 49525</em></p>
+          <a href="https://www.google.com/maps/place/3215+4+Mile+Rd+NE,+Grand+Rapids,+MI+49525/@43.0288866,-85.5911843,17z/data=!3m1!4b1!4m5!3m4!1s0x881854b91b3e63d7:0x6f8a58fc383e506d!8m2!3d43.0288827!4d-85.5889903" class="button" target="_blank">Directions</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="elca-logo">
+        <img src="assets/images/ELCA_logo.gif" alt="ELCA logo - globe intersected by cross">
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="http://saintlukeschurch.org">saintlukeschurch.org</a></li>
+          <li><a href="http://tlcgr.org">tlcgr.org</a></li>
+          <li><a href="http://clcwyoming.org">clcwyoming.org</a></li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <a href="mailto:info@reformation500gr.org" target="_blank">info@reformation500gr.org</a>
+        <p>Copyright 2016 Jonathan Lonsway</p>
+      </div>
+    </div>
+  </footer>
+
+<script src="assets/js/jquery-2.1.1.min.js"></script>
+<script src="assets/js/functions.js" type="text/javascript"></script>
+<script>$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});</script>
+</body>
+</html>
